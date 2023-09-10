@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4;
+  }
+
+  button {
+    @apply text-white border bg-red-800 border-red-800
+    hover:bg-transparent hover:text-white rounded-md;
+  }
+  .bg-custom-red {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* Customize the arrow styles */
+  .custom-prev-arrow {
+    font-size: 24px;
+  }
+
+  .custom-next-arrow {
+    font-size: 24px;
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}
